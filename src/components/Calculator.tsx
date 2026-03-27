@@ -1,7 +1,7 @@
-import NumberPad from "./NumberPad"
-import OperatorPad from "./OperatorPad"
+import NumberPad from "./NumberPad/NumberPad"
+import OperatorPad from "./OperatorPad/OperatorPad"
 import "./Calculator.css"
-import Display from "./Display"
+import Display from "./Display/Display"
 
 export default function Calculator() {
   return (

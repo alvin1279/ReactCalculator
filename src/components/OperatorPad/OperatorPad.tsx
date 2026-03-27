@@ -1,4 +1,4 @@
-import CalcButton from './CalcButton'
+import CalcButton from '../CalcButton/CalcButton'
 import './OperatorPad.css'
 
 const operators = ['+', '-', '/', '*'] as const

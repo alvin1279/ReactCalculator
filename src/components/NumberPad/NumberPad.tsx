@@ -1,5 +1,5 @@
 import type { ReactNode } from "react"
-import CalcButton from "./CalcButton"
+import CalcButton from "../CalcButton/CalcButton"
 import './NumberPad.css'
 
 
