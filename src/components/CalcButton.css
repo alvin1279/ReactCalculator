@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+.Container {
+    display: flex;
+    /* background-color: red; */
+    font-weight: 900;
+    font-size: calc(var(--btn-size) * 0.3);
+    justify-content: center;
+    align-items: center;
+    width: var(--btn-size);
+    height: var(--btn-size);
+    @apply bg-white text-black select-none hover:bg-sky-700 active:-translate-y-1 transition-transform duration-150 active:bg-sky-900;
+}
+.Container.operator {
+    @apply bg-amber-500 active:bg-amber-600;
+}

@@ -1,0 +1,6 @@
+.OperatorContainer {
+    display: grid;
+    grid-template-rows: repeat(4, var(--btn-size));
+    gap: 2px;
+    width: fit-content;
+}

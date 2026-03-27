@@ -1,0 +1,11 @@
+.CalcWrapper {
+    display: flex;
+    flex-direction: column;
+    width: calc(var(--btn-size) * 4 + 6px);
+}
+
+.CalcContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+}

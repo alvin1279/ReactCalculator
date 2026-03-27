@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+.DisplayArea {
+    display: flex;
+    width: 100%;
+    height: calc(var(--btn-size) * 0.9);
+    margin: 2px 0;
+    padding: 0 12px;
+    align-items: center;
+    overflow: hidden;
+    @apply bg-gray-400 rounded-2xl;
+}
+
+.DisplayText {
+    display: block;
+    width: 100%;
+    font-size: calc(var(--btn-size) * 0.45);
+    font-family: 'Share Tech Mono', monospace;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    white-space: nowrap;
+    overflow-x: auto;
+    scrollbar-width: .5px;
+    @apply text-right;        /* ← pushes text to the right */
+}
+
+.DisplayText::-webkit-scrollbar {
+    display: none;
+}

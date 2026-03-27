@@ -1,0 +1,6 @@
+.NumberContainer {
+    display: grid;
+    grid-template-columns: repeat(3, var(--btn-size));
+    gap: 2px;
+    width: fit-content;
+}
